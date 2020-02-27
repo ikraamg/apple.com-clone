@@ -1,7 +1,11 @@
 body {
   /* overflow: hidden; */
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  position: absolute;
 }
 
 .grid-container {
@@ -9,9 +13,11 @@ body {
   -webkit-box-pack: justify;
   /* justify-content: space-between; */
   /* align-items: center; */
+
   max-width: 1440px;
   min-width: 1024px;
   max-height: 1470px;
+  min-height: 828px;
   /* overflow: hidden; */
 
   /* not sure if i should define these in px, check later */
@@ -22,7 +28,7 @@ body {
     'foot foot foot foot';
 
   /* grid-template-columns: repeat(4, minmax(1024, 1140)); */
-  grid-template-columns: repeat(4, minmax(256px, 285px));
+  grid-template-columns: repeat(4, minmax(256px, 365px));
   /* grid-template-rows: minmax(538px, 1180px) 200px 90px; */
   grid-template-rows: auto 200px 90px;
 }
@@ -37,19 +43,34 @@ body {
   max-height: 1180px;
   min-height: 538px;
 
-  /* background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg)
-    50% 100% no-repeat; */
+  background: url(img/your_verse_hero.jpg) 50% 100%;
+  /* background-size: 100%; */
+  barc/* background-position: 100%; */
 
-  background-image: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
-  background-position: 50%;
-  background-size: 100%;
   background-repeat: no-repeat;
+  /* background-image: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg); */
 
   /* Need to figure the above out what is happening */
 }
 
+.first {
+  width: 980px;
+  height: 98px;
+}
+
+.second {
+  width: 980px;
+  height: 82px;
+}
+
+.third {
+  margin-top: 28px;
+  width: 980px;
+  height: 32px;
+}
+
 .block img {
-  /* margin-left: -182px; */
+  margin-left: -2px;
   width: 364px;
   height: 200px;
 }
