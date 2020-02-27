@@ -4,7 +4,12 @@ body {
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
-  font-family: Lucida Grande, Lucida Sans Unicode, Helvetica, Arial, Verdana,
+  font-family:
+    Lucida Grande,
+    Lucida Sans Unicode,
+    Helvetica,
+    Arial,
+    Verdana,
     sans-serif;
   cursor: pointer;
 }
@@ -153,28 +158,30 @@ body {
   border-style: solid;
   border-color: grey;
   color: white;
-  background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    from(#838383),
-    color-stop(#54575a),
-    to(#8a8a8a)
-  );
+  background-image:
+    -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#838383),
+      color-stop(#54575a),
+      to(#8a8a8a)
+    );
   background-image: linear-gradient(to top, #838383, #54575a, #8a8a8a);
   outline: none;
   cursor: pointer;
 }
 
 .navbtn:hover {
-  background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    from(#555),
-    color-stop(#333435),
-    to(#575757)
-  );
+  background-image:
+    -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#555),
+      color-stop(#333435),
+      to(#575757)
+    );
   background-image: linear-gradient(to top, #555, #333435, #575757);
 }
 
@@ -184,9 +191,11 @@ body {
 
 .search {
   align-self: center;
-  background-image: url(img/search_icon.svg),
+  background-image:
+    url(img/search_icon.svg),
     -webkit-gradient(linear, left bottom, left top, from(#838383), color-stop(#646769), to(#8a8a8a));
-  background-image: url(img/search_icon.svg),
+  background-image:
+    url(img/search_icon.svg),
     linear-gradient(to top, #838383, #646769, #8a8a8a);
   background-repeat: no-repeat;
   height: 22px;
