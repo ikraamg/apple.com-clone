@@ -1,7 +1,7 @@
-# Mint-SignUp-Replica
+# apple.com website clone
 
 > A clone of the apple.com website from 2014
-> ![screenshot]()
+> ![screenshot](img/screenshot.png)
 
 ## Built With
 
@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/ikraamg/apple.com-clone/apple-clone-feature/index.html)
 
 ## Getting Started
 
@@ -47,5 +47,6 @@ Give a ⭐️ if you like this project!
 
 - The Odin project for the project plan
 - Apple.com for the original website
+- sanitize.css creators for the opinionated css reset file
 
 ## 📝 License
