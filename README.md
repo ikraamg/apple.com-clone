@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/ikraamg/apple.com-clone/apple-clone-feature/index.html)
+[Live Demo Link](https://ikraamg.github.io/apple.com-clone/)
 
 ## Getting Started
 
