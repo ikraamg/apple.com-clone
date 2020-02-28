@@ -8,6 +8,8 @@
 - HTML 5
 - CSS 3
 
+*The search bar has a cool CSS transition. Type something in to test it out*
+
 ## Live Demo
 
 [Live Demo Link](https://raw.githack.com/ikraamg/apple.com-clone/apple-clone-feature/index.html)
