@@ -152,7 +152,7 @@ body {
 
 .navbtn {
   -webkit-box-flex: 1;
-  flex: 1;
+  flex: auto;
   border: 0;
   border-width: 1px;
   border-style: solid;
@@ -190,6 +190,8 @@ body {
 }
 
 .search {
+  -webkit-box-flex: 1;
+  flex: auto;
   align-self: center;
   background-image:
     url(img/search_icon.svg),
@@ -229,5 +231,6 @@ body {
 
 .search-button {
   border-radius: 0 4px 4px 0;
+  display: -webkit-box;
   display: flex;
 }
