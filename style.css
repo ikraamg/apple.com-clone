@@ -1,0 +1,236 @@
+body {
+  overflow-y: scroll;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-family:
+    Lucida Grande,
+    Lucida Sans Unicode,
+    Helvetica,
+    Arial,
+    Verdana,
+    sans-serif;
+  cursor: pointer;
+}
+
+/* ======================================== Grid Main Container======================================== */
+
+.grid-container {
+  display: grid;
+  -webkit-box-pack: justify;
+  grid-template-areas:
+    'main main main main'
+    'blk1 blk2 blk3 blk4'
+    'foot foot foot foot';
+  grid-template-columns: repeat(4, minmax(256px, 365px));
+  grid-template-rows: 1180px 200px 90px;
+  grid-row-gap: 2px;
+}
+
+@media only screen and (max-height: 999px) {
+  .grid-container {
+    grid-template-rows: 538px 200px 90px;
+  }
+}
+
+.main-section {
+  position: relative;
+  grid-area: main;
+  align-self: stretch;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  background: url(img/your_verse_hero.jpg);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+.first {
+  margin-top: 15%;
+  width: 980px;
+  height: 98px;
+}
+
+.second {
+  width: 980px;
+  height: 82px;
+}
+
+.third {
+  margin-top: 28px;
+  width: 980px;
+  height: 32px;
+}
+
+.block {
+  width: 99%;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+
+.block img {
+  width: 364px;
+  height: 200px;
+
+  /* Ensuring image is at centre when the container size is reduced, cropping out edges */
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.block1 {
+  grid-area: blk1;
+}
+
+.block2 {
+  grid-area: blk2;
+}
+
+.block3 {
+  grid-area: blk3;
+}
+
+.block4 {
+  grid-area: blk4;
+}
+
+/* ======================================== Footer Section======================================== */
+
+.footer {
+  grid-area: foot;
+  font-size: 10px;
+  padding-top: 25px;
+  float: right;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.footer-nav {
+  list-style: none;
+  float: right;
+}
+
+.footer-nav-links {
+  display: inline;
+  padding-right: 3px;
+}
+
+.footer-info a,
+.footer-nav-links a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.footer-info {
+  float: left;
+  color: #6e6e6e;
+}
+
+.header {
+  position: absolute;
+  top: 83px;
+  text-align: center;
+}
+
+/* ======================================== Navbar Section======================================== */
+
+.navbar {
+  display: -webkit-box;
+  display: flex;
+  width: 980px;
+  height: 36px;
+}
+
+.navbtn {
+  -webkit-box-flex: 1;
+  flex: auto;
+  border: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: grey;
+  color: white;
+  background-image:
+    -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#838383),
+      color-stop(#54575a),
+      to(#8a8a8a)
+    );
+  background-image: linear-gradient(to top, #838383, #54575a, #8a8a8a);
+  outline: none;
+  cursor: pointer;
+}
+
+.navbtn:hover {
+  background-image:
+    -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#555),
+      color-stop(#333435),
+      to(#575757)
+    );
+  background-image: linear-gradient(to top, #555, #333435, #575757);
+}
+
+.navbtn:focus {
+  box-shadow: inset 0 2px 5px rgb(53, 52, 52);
+}
+
+.search {
+  -webkit-box-flex: 1;
+  flex: auto;
+  align-self: center;
+  background-image:
+    url(img/search_icon.svg),
+    -webkit-gradient(linear, left bottom, left top, from(#838383), color-stop(#646769), to(#8a8a8a));
+  background-image:
+    url(img/search_icon.svg),
+    linear-gradient(to top, #838383, #646769, #8a8a8a);
+  background-repeat: no-repeat;
+  height: 22px;
+  width: 120px;
+  border-radius: 20px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: text;
+  background-position: left;
+  color: white;
+  padding-left: 20px;
+  box-shadow: inset 0 2px 1px rgb(53, 52, 52);
+}
+
+.search:focus {
+  width: 200px;
+  background-color: white;
+  background-image: url(img/search_icon_grey.svg);
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+  color: black;
+}
+
+.btn1 img {
+  height: 20px;
+}
+
+.btn1 {
+  border-radius: 4px 0 0 4px;
+}
+
+.search-button {
+  border-radius: 0 4px 4px 0;
+  display: -webkit-box;
+  display: flex;
+}
