@@ -1,3 +1,5 @@
+[![Is <username> available for hire?](http://hireable.me/<username>)](http://hireable.me/p/<username>)
+
 # apple.com website clone
 
 > A clone of the apple.com website from 2014
