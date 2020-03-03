@@ -1,4 +1,4 @@
-[![hire-badge](https://img.shields.io/badge/Consult%20/%20Hire%20Ikraam-Click%20to%20Contact-brightgreen)](mailto:consult.ikraam@gmail.com)
+[![hire-badge](https://img.shields.io/badge/Consult%20/%20Hire%20Ikraam-Click%20to%20Contact-brightgreen)](mailto:consult.ikraam@gmail.com) [![Twitter Follow](https://img.shields.io/twitter/follow/GhoorIkraam?label=Follow%20me%20on%20Twitter&style=social)](https://twitter.com/GhoorIkraam)
 
 # Apple.com Website Clone
 
@@ -19,11 +19,11 @@
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps:
+To get a local copy up and running follow these steps:
 
 ### Prerequisites
 
-A browser of your choice (preferrably Chrome)
+A browser (preferably Chrome)
 
 ### Setup
 
@@ -36,13 +36,18 @@ A browser of your choice (preferrably Chrome)
 
 - Github: [@ikraamg](https://github.com/ikraamg)
 - Twitter: [@GhoorIkraam](https://twitter.com/GhoorIkraam)
-- Linkedin: [isghoor](https://linkedin.com/isghoor)
+- LinkedIn: [isghoor](https://linkedin.com/isghoor)
+- Email: [consult.ikraam@gmail.com](mailto:consult.ikraam@gmail.com)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues](https://github.com/ikraamg/apple.com-clone/issues)
+
+### 🚀 Potential/Future Features
+
+- Improve vertical responsiveness before media query activates for smoother transition
 
 ## Show your support
 
