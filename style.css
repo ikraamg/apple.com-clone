@@ -23,7 +23,7 @@ body {
     'main main main main'
     'blk1 blk2 blk3 blk4'
     'foot foot foot foot';
-  grid-template-columns: repeat(4, minmax(256px, 365px));
+  grid-template-columns: repeat(4, minmax(256px, 361px));
   grid-template-rows: 1180px 200px 90px;
   grid-row-gap: 2px;
 }
@@ -72,11 +72,13 @@ body {
   overflow: hidden;
   text-align: center;
   position: relative;
+  margin-left: 2px;
 }
 
 .block img {
-  width: 364px;
+  width: 362px;
   height: 200px;
+  
 
   /* Ensuring image is at centre when the container size is reduced, cropping out edges */
 
